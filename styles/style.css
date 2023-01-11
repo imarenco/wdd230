@@ -3,11 +3,14 @@
 body{
     margin: .5rem;
     padding: .5rem;
+    max-width: 600px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
-#header{
+
+
+header {
     display: flex;
     background-color: #5464A3;
     color: #ffffff;
@@ -19,7 +22,7 @@ body{
     justify-content: center;
 }
 
-.picture {
+#picture {
     border-radius: 10px;
     height: 150px;
     margin-right: 50px;
@@ -30,7 +33,7 @@ body{
     padding: 1rem;
 }
 
-.footer {
+footer {
     background-color: #5464A3;
     color: #ffffff;
     text-align: center;
@@ -39,10 +42,10 @@ body{
     font-size: .9rem;
 }
 
-.footer span {
+footer span {
     text-decoration: underline;
 }
 
-.last-update {
+#lastDate {
     color: #F7F8FF;
 }
