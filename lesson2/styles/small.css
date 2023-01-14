@@ -1,0 +1,22 @@
+
+@media (max-width: 649px) {    
+    body {
+        padding: 0px 1em;
+    }
+
+    main {
+        grid-template-columns: auto;
+        grid-gap: 20px 0;
+    }
+
+    main > section {
+        grid-column: 1;
+        width: 90%;
+        max-width: 450px;
+        justify-self: center;
+    }
+
+    img {
+        max-width: 500px;
+    }
+}
