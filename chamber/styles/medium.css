@@ -1,0 +1,51 @@
+@media only  screen and (min-width: 35rem) {
+   #hamburgerBtn {
+      margin-left: 90px;
+  }
+
+  #information {
+      flex-direction: row;
+       justify-content: space-between;
+  }
+
+  #information div:nth-child(1) {
+   padding: 0px 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  #information div:nth-child(2) {
+   padding: 0px 2rem;
+  }
+
+  #event {
+      display: inline-flex;
+      width: 59%;
+   }
+
+   #weather {
+      width: 40%;
+      display: inline-flex;
+   }
+
+  #companyInformation {
+      flex-direction: row;
+  }
+
+   #developedBy  {
+      flex-direction: row;
+  }
+
+  #developedBy p {
+      padding: 0px 0px;
+   }
+
+   #developedBy p::after {
+      content: " | "
+   }
+
+   #developedBy p:last-child:after {
+      content: ""
+   }
+}
