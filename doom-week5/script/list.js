@@ -1,7 +1,8 @@
 const button = document.getElementById('button')
+const input = document.getElementById('favchap')
+const list = document.querySelector("#list");
 
 button.addEventListener('click', function () {
-    const input = document.getElementById('favchap')
     const value = input.value;
     if (value) {
         const li = document.createElement("li");
@@ -14,7 +15,8 @@ button.addEventListener('click', function () {
             input.value = ""
         })
         button.classList.add("delete");
-        li.appendChild(button); document.querySelector("#list").appendChild(li);
+        li.appendChild(button); 
+        list.appendChild(li);
         input.focus();
         input.value = ""
     }
