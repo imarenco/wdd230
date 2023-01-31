@@ -15,6 +15,7 @@ button.addEventListener('click', function () {
             input.value = ""
         })
         button.classList.add("delete");
+        button.ariaLabel = "Close button";
         li.appendChild(button); 
         list.appendChild(li);
         input.focus();
