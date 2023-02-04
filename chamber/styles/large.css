@@ -92,7 +92,7 @@
     }
 
     .spotlightItem p, .spotlightItem h6 {
-        margin-top: 0px;
+        margin-top: 5px;
     }
     .spotlightItem img {
         width: 50%;
