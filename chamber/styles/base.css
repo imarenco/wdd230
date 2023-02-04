@@ -11,6 +11,23 @@ p, a, span {
 
 
 /* header */
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #688BF5;
+    height: 100%;
+    display: none;
+    padding: 0.5rem;
+    color: white;
+}
+
+#banner p {
+    text-align:  center;
+    margin: 0px;
+}
+
 nav {
     background-color: #5464A3;
     padding: 10px 20px;

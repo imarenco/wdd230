@@ -16,3 +16,9 @@ document.getElementById("lastDate").innerHTML = dateTime;
 document.getElementById("year").innerHTML = `&copy; ${new Date().getFullYear()}`;
 
 
+// show banner
+const day = now.getDay();
+// if monday or Tuesdays
+if (day === 1 || day === 2)  {
+	document.getElementById("banner").style.display = "block";
+}
