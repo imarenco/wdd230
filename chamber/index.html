@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Bariloche Chamber of Commerce</title>
-    <link rel="icon" type="image/x-icon" href="./images/logo-wo-background.png">
+    <link rel="icon" type="image/x-icon" href="./images/logo-wo-background.webp">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link type="text/css" rel="stylesheet" href="styles/base.css">
     <link type="text/css" rel="stylesheet" href="styles/medium.css">
@@ -20,15 +20,17 @@
         <nav>
             <div id="topMenu">
                 <div id="menuIconTitle">
-                    <img alt="Bariloche Chamber of Commerce icon" src="./images/logo-wo-background.png" />
+                    <img alt="Bariloche Chamber of Commerce icon" src="./images/logo-wo-background.webp" />
                     <h3>Bariloche Chamber of Commerce</h3>
                 </div>
                 <div id="socialNav">
                     <div>
-                        <a href="https://instagram.com"><img alt="icon of instagram" class="socialImg"
-                                src="./images/instagram.png" /></a>
-                        <a href="https://facebook.com"><img alt="icon of facebook" class="socialImg"
-                                src="./images/facebook.png" /></a>
+                        <a href="https://instagram.com"><img
+                                srcset="./images/instagram-large.png 400w, ./images/instagram-medium.png 200w, ./images/instagram-small.png 150w"
+                                alt="icon of instagram" class="socialImg" src="./images/instagram.png" /></a>
+                        <a href="https://facebook.com"><img
+                                srcset="./images/facebook-large.png 512w, ./images/facebook-medium.png 256w, ./images/facebook-small.png 128w"
+                                alt="icon of facebook" class="socialImg" src="./images/facebook.png" /></a>
                     </div>
                     <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
                 </div>
@@ -44,7 +46,9 @@
     </header>
     <main>
         <div id="hero">
-            <img alt="picture of bariloche" src="./images/bariloche.webp" />
+            <img srcset="./images/hero-large.jpeg 800w, ./images/hero-medium.jpeg 480w, ./images/hero-small.jpeg 320w"
+                 src="./images/hero-large.jpeg" alt="Elva dressed as a fairy" />
+
             <h3>Welcome to Bariloche</h3>
             <div><button>Join the Chamber</button></div>
         </div>
@@ -57,20 +61,31 @@
         <div id="event">
             <div class="sectionContainer">
                 <h4>Festival</h4>
-                    <a href="https://barilochedigital.com/este-sabado-dina-huapi-esta-de-fiesta-con-la-estepa-y-el-sol/">FESTIVAL OF THE STEPPE AND THE SUN</a>
-                    <p> The VI Edition of the Provincial Festival of the Steppe and the Sun arrives with an extensive program of musical presentations and activities, so that residents and tourists can enjoy and get to know the town and its people more closely. <a href="https://barilochedigital.com/este-sabado-dina-huapi-esta-de-fiesta-con-la-estepa-y-el-sol/" >More Info</a>
+                <a href="https://barilochedigital.com/este-sabado-dina-huapi-esta-de-fiesta-con-la-estepa-y-el-sol/">FESTIVAL
+                    OF THE STEPPE AND THE SUN</a>
+                <p> The VI Edition of the Provincial Festival of the Steppe and the Sun arrives with an extensive
+                    program of musical presentations and activities, so that residents and tourists can enjoy and get to
+                    know the town and its people more closely. <a
+                        href="https://barilochedigital.com/este-sabado-dina-huapi-esta-de-fiesta-con-la-estepa-y-el-sol/">More
+                        Info</a>
 
-                    </p>
+                </p>
             </div>
         </div>
         <div id="weather">
             <div class="sectionContainer">
-                <h5>Weather</h5>
+                <h3>Weather</h3>
                 <div>
-                    <img src="./images/cloud.png" alt="weather" />
-                    <p>32°C</p>
+                    <div id="weatherImg">
+                        <img srcset="./images/cloud-large.png 512w, ./images/cloud-medium.jpeg 400w, ./images/cloud-small.png 250w"
+                             src="./images/cloud2.png" alt="weather" />
+                        <p><label id="temperature">10</label>°F</p>
+                    </div>
+                    <hr />
+                    <p>Wind Speed: <label id="speed">5</label> km/h</p>
+                    <p>Wind Chill: <label id="chill">N/A</label></p>
                 </div>
-                
+
             </div>
         </div>
         <div id="news">
@@ -99,8 +114,7 @@
                 </p>
             </div>
             <div class="spotlightItem">
-                <img src="./images/mia.png"
-                    alt="mia" />
+                <img src="./images/mia.png" alt="mia" />
                 <h6>Mia</h6>
                 <p> contacto@calzadosmia.com <br />
                     +5492944601158 <a href="https://www.calzadosmia.com">Website</a></p>
@@ -111,7 +125,7 @@
     <footer>
         <div id="information">
             <div id="companyInformation">
-                <img alt="Bariloche Chamber of Commerce icon" id="footerLogo" src="./images/logo-wo-background.png" />
+                <img alt="Bariloche Chamber of Commerce icon" id="footerLogo" src="./images/logo-wo-background.webp" />
                 <div>
                     <h4>Bariloche Chamber of Commerce</h4>
                     <p>Ada María Elflein 635</p>
@@ -121,8 +135,9 @@
                 <p>info@bariloche.com</p>
                 <p>+54 1157493614</p>
                 <a id="mapLink"
-                    href="https://www.google.com.ar/maps/place/Ada+Mar%C3%ADa+Elflein+635,+R8400+San+Carlos+de+Bariloche,+R%C3%ADo+Negro/@-41.1363843,-71.3034368,17z/data=!3m1!4b1!4m5!3m4!1s0x961a7b6fa0a49c29:0x162c6f0546dc3325!8m2!3d-41.1363884!4d-71.3012481"><img
-                        src="./images/marker.png" alt="marker to redirect map" /> Location Map</a>
+                    href="https://www.google.com.ar/maps/place/Ada+Mar%C3%ADa+Elflein+635,+R8400+San+Carlos+de+Bariloche,+R%C3%ADo+Negro/@-41.1363843,-71.3034368,17z/data=!3m1!4b1!4m5!3m4!1s0x961a7b6fa0a49c29:0x162c6f0546dc3325!8m2!3d-41.1363884!4d-71.3012481">
+                    &#128681;
+                    <label>Location Map</label></a>
             </div>
         </div>
 
@@ -135,6 +150,7 @@
     </footer>
     <script src="scripts/menu.js"></script>
     <script src="scripts/date.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>

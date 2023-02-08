@@ -135,7 +135,7 @@ main {
 
 #hero img {
     width: 100%;
-    object-fit: none;
+    /* object-fit: none;  */
     border-radius: 0.5rem;
     object-position: center;
     position: relative;
@@ -247,17 +247,30 @@ main {
 }
 
 
-#weather div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+hr {
+    width: 100%;
 }
 
 #weather img {
     width: 120px;
 }
 
-#weather p {
+#weather .sectionContainer:last-child {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#weather #weatherImg {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+}
+
+#weather #weatherImg p {
     font-size: 3rem;
 }
 
@@ -322,12 +335,16 @@ footer p, footer h4, footer a, footer span {
 }
 
 
-#mapLink {
+#mapLink  {
+    text-decoration: none;
     cursor: pointer;
+    list-style-type: none;
+    font-size: 1rem;    
 }
 
-#mapLink img {
-    width: 20px;
+#mapLink label {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #information {
