@@ -1,25 +1,25 @@
-@media only  screen and (min-width: 35rem) {
+@media only screen and (min-width: 35rem) {
    #hamburgerBtn {
       margin-left: 90px;
-  }
+   }
 
-  #information {
+   #information {
       flex-direction: row;
-       justify-content: space-between;
-  }
+      justify-content: space-between;
+   }
 
-  #information div:nth-child(1) {
-   padding: 0px 2rem;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-  }
+   #information div:nth-child(1) {
+      padding: 0px 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
 
-  #information div:nth-child(2) {
-   padding: 0px 2rem;
-  }
+   #information div:nth-child(2) {
+      padding: 0px 2rem;
+   }
 
-  #event {
+   #event {
       display: inline-flex;
       width: 59%;
    }
@@ -29,15 +29,15 @@
       display: inline-flex;
    }
 
-  #companyInformation {
+   #companyInformation {
       flex-direction: row;
-  }
+   }
 
-   #developedBy  {
+   #developedBy {
       flex-direction: row;
-  }
+   }
 
-  #developedBy p {
+   #developedBy p {
       padding: 0px 0px;
    }
 
@@ -48,4 +48,14 @@
    #developedBy p:last-child:after {
       content: ""
    }
+
+   #discover img:hover {
+      box-shadow: 0 0 0 3px #ccc;
+      transition: .5s ease;
+   }
+
+   #discover section {
+      width: 50%;
+   }
+
 }

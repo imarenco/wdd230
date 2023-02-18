@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Roboto+Slab&display=swap');
 
 /* general styles */
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Lemonada, Helvetica, sans-serif;
 }
 
-p, a, span {
+p,
+a,
+span {
     font-family: Roboto Slab, Helvetica, sans-serif;
 }
 
@@ -24,7 +31,7 @@ p, a, span {
 }
 
 #banner p {
-    text-align:  center;
+    text-align: center;
     margin: 0px;
 }
 
@@ -55,7 +62,7 @@ nav ul li a {
     text-decoration: none;
     padding: 0.8rem;
     color: white;
-    
+
 }
 
 nav ul li:hover {
@@ -78,7 +85,8 @@ nav ul li:hover {
     margin-left: 1rem;
 }
 
-#date {
+#date,
+#visits {
     padding: 0px;
     left: 45vw;
     text-align: center;
@@ -97,14 +105,25 @@ nav ul li:hover {
     padding: 0px;
     margin: 0px;
     margin-left: 20px;
-    cursor:pointer;
-    color:white;
+    cursor: pointer;
+    color: white;
 }
 
-#hamburgerBtn span:nth-child(1) { display: block;}
-#hamburgerBtn span:nth-child(2) { display: none;}
-#hamburgerBtn.open span:nth-child(1) { display: none }
-#hamburgerBtn.open span:nth-child(2) { display: block }
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block
+}
 
 .socialImg {
     margin: 5px;
@@ -217,7 +236,12 @@ main {
     color: white;
 }
 
-#hero, #join, #event, #weather, #news, #spotlight {
+#hero,
+#join,
+#event,
+#weather,
+#news,
+#spotlight {
     margin-top: 1rem;
     min-height: 300px;
 }
@@ -230,13 +254,14 @@ main {
     align-items: center;
 }
 
-#event a, #event p {
+#event a,
+#event p {
     color: white;
     text-align: center;
 }
 
 #event a:hover {
-    color: #688BF5;    
+    color: #688BF5;
 }
 
 
@@ -287,7 +312,7 @@ hr {
 
 #spotlight {
     width: 100%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -306,7 +331,9 @@ hr {
 }
 
 
-.spotlightItem p, .spotlightItem a, .spotlightItem h6 {
+.spotlightItem p,
+.spotlightItem a,
+.spotlightItem h6 {
     text-align: center;
 }
 
@@ -327,7 +354,10 @@ footer {
     width: 7rem;
 }
 
-footer p, footer h4, footer a, footer span {
+footer p,
+footer h4,
+footer a,
+footer span {
     color: white;
     text-align: center;
     margin: 0px;
@@ -335,11 +365,11 @@ footer p, footer h4, footer a, footer span {
 }
 
 
-#mapLink  {
+#mapLink {
     text-decoration: none;
     cursor: pointer;
     list-style-type: none;
-    font-size: 1rem;    
+    font-size: 1rem;
     display: flex;
 }
 
@@ -379,4 +409,30 @@ footer p, footer h4, footer a, footer span {
 
 #developedBy p {
     margin: 0.1rem;
+}
+
+
+/* discover page  */
+
+#discover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#discover section {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+}
+
+#discover img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: none;
+    transition: .5s ease;
 }
