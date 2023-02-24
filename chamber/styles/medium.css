@@ -13,6 +13,10 @@
       justify-content: space-between;
    }
 
+   #menuIconTitle h3 {
+      width: 12rem;
+  }
+
    #information div:nth-child(1) {
       padding: 0px 2rem;
       display: flex;
