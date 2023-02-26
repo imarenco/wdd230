@@ -1,44 +1,50 @@
-@media only  screen and (min-width: 64rem) {
+@media only screen and (min-width: 64rem) {
     nav button {
         display: none;
-     }
+    }
 
-     #icon {
+    #icon {
         display: flex;
         position: fixed;
         top: 2px;
         right: 0px;
-     }
-     nav ul {
+    }
+
+    nav ul {
         display: flex;
         height: 100%;
-     }
+    }
 
-     #menuIconTitle h3 {
+    #menuIconTitle h3 {
         color: white;
         width: 14rem;
         margin-left: 1rem;
     }
 
-     #socialNav {
+    #socialNav {
         display: flex;
         position: absolute;
         top: 2px;
         right: 0px;
-     }
+    }
 
-     #date {
+    #date {
         position: absolute;
         bottom: 10px;
-     }
+    }
 
-    #hero, #join, #event, #weather, #news, #spotlight {
+    #hero,
+    #join,
+    #event,
+    #weather,
+    #news,
+    #spotlight {
         display: block;
         width: 100%;
         min-height: 100px;
-        margin:0px;
+        margin: 0px;
     }
-    
+
     main {
         display: grid;
         grid-template-columns: 1fr 2.5fr 1fr;
@@ -54,7 +60,7 @@
         min-height: 500px;
         margin: 0 auto;
     }
-    
+
     #join {
         display: block;
         grid-column: 1;
@@ -82,7 +88,7 @@
     #spotlight {
         grid-column: 3;
         grid-row: 1/4;
-    }    
+    }
 
 
     .spotlightItem {
@@ -91,13 +97,15 @@
         align-items: center;
     }
 
-    .spotlightItem p, .spotlightItem h6 {
+    .spotlightItem p,
+    .spotlightItem h6 {
         margin-top: 5px;
     }
+
     .spotlightItem img {
         width: 50%;
     }
-    
+
 
     #menuIconTitle h3 {
         max-width: 30rem;
@@ -112,5 +120,13 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-     }
- }
+    }
+
+    #thankyou h1 {
+        font-size: 80px;
+    }
+
+    #thankyou {
+        width: 50%;
+    }
+}

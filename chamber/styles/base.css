@@ -104,7 +104,7 @@ nav ul li:hover {
     font-size: 2rem;
     padding: 0px;
     margin: 0px;
-    
+
     margin-right: 20px;
     cursor: pointer;
     color: white;
@@ -440,7 +440,7 @@ footer span {
 
 #demographic {
     background-color: #688BF5;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     color: white;
     border-radius: 10px;
     display: flex;
@@ -448,4 +448,153 @@ footer span {
     align-items: center;
     justify-content: center;
     width: 80%;
+}
+
+
+/* join page  */
+
+#joinpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+}
+
+
+form fieldset {
+    background-color: #5464A3;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: solid 1px #ccc;
+}
+
+form #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form .group {
+    flex-direction: column;
+    display: flex;
+    padding: 1rem;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+form input {
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    width: 100%;
+    border: none;
+    background: white;
+}
+
+form label {
+    color: white;
+}
+
+
+form #membership {
+    color: white;
+}
+
+#membershipSelection .group {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#membershipSelection .group input {
+    width: auto;
+    margin-right: 10px;
+}
+
+form #describe {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form #describe textarea {
+    width: 100%;
+    min-height: 150px;
+}
+
+
+form #btn {
+    background-color: #5464A3;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+form #btn:hover {
+    background-color: #688BF5;
+}
+
+
+form input:required {
+    border: 2px solid red;
+    outline: none;
+}
+
+form input:required:valid {
+    border: 2px solid green;
+    outline: none;
+}
+
+legend {
+    background-color: #5464A3;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+}
+
+
+#thankyou {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #688BF5;
+    margin-top: 30px;
+    border-radius: 1rem;
+    justify-content: center;
+    min-height: 500px;
+}
+
+#thankyou h1 {
+    color: #EEE;
+    text-shadow: -1px -2px 3px #5464A3;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+
+#thankyou h1 underline {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;   
+    border-radius: 3px;
+}
+
+#thankyou h3 {
+    margin-left: 16px;
+    margin-top: 0px;
+    font-weight: 600;
+    color: white;
+}
+
+#thankyou img {
+    margin-top: 50px;
 }

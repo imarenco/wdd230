@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Bariloche Chamber of Commerce</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo-wo-background.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        </div>
+        <nav>
+            <div id="topMenu">
+                <div id="menuIconTitle">
+                    <img alt="Bariloche Chamber of Commerce icon" src="./images/logo-wo-background.webp" />
+                    <h3>Bariloche Chamber of Commerce</h3>
+                </div>
+                <div id="socialNav">
+                    <div>
+                        <a href="https://instagram.com"><img
+                                srcset="./images/instagram-large.png 400w, ./images/instagram-medium.png 200w, ./images/instagram-small.png 150w"
+                                alt="icon of instagram" sizes="100vw" class="socialImg"
+                                src="./images/instagram.png" /></a>
+                        <a href="https://facebook.com"><img
+                                srcset="./images/facebook-large.png 512w, ./images/facebook-medium.png 256w, ./images/facebook-small.png 128w"
+                                alt="icon of facebook" sizes="100vw" class="socialImg"
+                                src="./images/facebook.png" /></a>
+                    </div>
+                    <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                </div>
+            </div>
+            <p id="date"></p>
+            <ul id="primaryNav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./discover.html">Discover</a></li>
+                <li><a href="./join.html">Join</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="thankyou">
+        <h1>
+            <underline>Thank you!</underline>
+        </h1>
+        <img src="images/logo-wo-background.png" />
+        <h3>
+            Thank you for wanting to join us, we will contact you shortly by email or phone to continue with the steps.
+        </h3>
+    </main>
+    <footer>
+        <div id="information">
+            <div id="companyInformation">
+                <img alt="Bariloche Chamber of Commerce icon" id="footerLogo" src="./images/logo-wo-background.webp" />
+                <div>
+                    <h4>Bariloche Chamber of Commerce</h4>
+                    <p>Ada María Elflein 635</p>
+                    <p id="visits"></p>
+                </div>
+            </div>
+            <div>
+                <p>info@bariloche.com</p>
+                <p>+54 1157493614</p>
+                <a id="mapLink"
+                    href="https://www.google.com.ar/maps/place/Ada+Mar%C3%ADa+Elflein+635,+R8400+San+Carlos+de+Bariloche,+R%C3%ADo+Negro/@-41.1363843,-71.3034368,17z/data=!3m1!4b1!4m5!3m4!1s0x961a7b6fa0a49c29:0x162c6f0546dc3325!8m2!3d-41.1363884!4d-71.3012481">
+                    &#128681;
+                    <p>Location Map</p>
+                </a>
+            </div>
+        </div>
+
+        <div id="developedBy">
+            <p> <span id="year"></span> Bariloche Chamber</p>
+            <p>Ignacio Marenco</p>
+            <p>WDD 230 Project</p>
+            <p id="lastDate"></p>
+        </div>
+    </footer>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/localstorage.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/hiddenDate.js"></script>
+</body>
+
+</html>

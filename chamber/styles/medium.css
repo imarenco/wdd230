@@ -6,7 +6,7 @@
 
    nav {
       padding: 10px 20px;
-  }
+   }
 
    #information {
       flex-direction: row;
@@ -15,7 +15,7 @@
 
    #menuIconTitle h3 {
       width: 12rem;
-  }
+   }
 
    #information div:nth-child(1) {
       padding: 0px 2rem;
@@ -66,5 +66,19 @@
    #discover section {
       width: 50%;
    }
+
+   form {
+      width: 50%;
+   }
+
+   #thankyou h1 {
+      font-size: 50px;
+   }
+
+   #thankyou {
+      width: 90%;
+   }
+
+
 
 }
