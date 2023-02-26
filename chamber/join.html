@@ -47,17 +47,38 @@
         </nav>
     </header>
     <main id="joinpage">
-        <div id="membershipSection">
-            <h3>NP Membership</h3>
-            <p>Designed for non profit organizations (No Fee)</p>
-            <h4>Bronze Membership</h4>
-            <p>$100 USD</p>
-            <h4>Silver Membership</h4>
-            <p>$150 USD</p>
-            <h4>Gold Membership</h4>
-            <p>$200 USD</p>
-
-        </div>
+        <table id="membershipSection">
+            <thead>
+                <tr>
+                    <th>Membership Level</th>
+                    <th>Benefits</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>NP</td>
+                    <td>No fee, limited benefits</td>
+                    <td>$0</td>
+                </tr>
+                <tr>
+                    <td>Bronze</td>
+                    <td>Access to trainings</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Silver</td>
+                    <td>Access to trainings, advertising opportunities, event discounts</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Gold</td>
+                    <td>Access to trainings, advertising opportunities, event discounts, priority listing on the
+                        website</td>
+                    <td>$150</td>
+                </tr>
+            </tbody>
+        </table>
         <form method="get" action="./thankyou.html">
             <fieldset id="contact">
                 <legend>Information</legend>
@@ -129,7 +150,6 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/localstorage.js"></script>
     <script src="scripts/date.js"></script>
-    <script src="scripts/windchill.js"></script>
     <script src="scripts/hiddenDate.js"></script>
 </body>
 

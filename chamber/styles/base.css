@@ -610,3 +610,7 @@ legend {
     text-decoration: none;
     list-style: none;
 }
+
+#membershipSection td {
+    padding-top: 20px;
+}
