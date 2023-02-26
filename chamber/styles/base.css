@@ -455,9 +455,10 @@ footer span {
 
 #joinpage {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
+    flex-direction: column;
 }
 
 form {
@@ -541,12 +542,12 @@ form #btn:hover {
 
 
 form input:required {
-    border: 2px solid red;
+    border-left: 6px solid red;
     outline: none;
 }
 
 form input:required:valid {
-    border: 2px solid green;
+    border-left: 6px solid green;
     outline: none;
 }
 
@@ -584,7 +585,7 @@ legend {
 
 #thankyou h1 underline {
     border-top: 3px solid white;
-    border-bottom: 3px solid white;   
+    border-bottom: 3px solid white;
     border-radius: 3px;
 }
 
@@ -597,4 +598,15 @@ legend {
 
 #thankyou img {
     margin-top: 50px;
+}
+
+
+#membershipSection {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #5464A3;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
 }

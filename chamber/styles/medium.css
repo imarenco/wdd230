@@ -79,6 +79,14 @@
       width: 90%;
    }
 
+   #joinpage {
+      flex-direction: row;
+  }
+
+  #membershipSection {
+   width: 30%;
+  }
+
 
 
 }

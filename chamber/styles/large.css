@@ -129,4 +129,10 @@
     #thankyou {
         width: 50%;
     }
+
+
+    #membershipSection {
+        width: 20%;
+        padding: 10px 20px;
+       }
 }
