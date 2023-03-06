@@ -21,8 +21,6 @@ const displayPlaces = (places) => {
 
         title.textContent = place.name;
 
-     
-
         phone.textContent = `Phone: ${place.phone}`;
         address.textContent = `Address:${place.address}`;
         website.textContent = `${place.website}`;
