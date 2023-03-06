@@ -614,3 +614,45 @@ legend {
 #membershipSection td {
     padding-top: 20px;
 }
+
+
+/* directory page  */
+#directory {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#directory .places {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    border-radius: 5px;
+    padding: 1.5rem;
+    width: 80%;
+    background-color: #5464A3;
+}
+
+#directory section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color:#eeeeee;
+    border-radius: 8px;
+}
+
+#directory h2 {
+    font-size: 2.5rem;
+    color: #5464A3;
+    margin-bottom: 1rem;
+}
+
+#directory img {
+    width: auto;
+    border-radius: 8px; 
+	max-width: 325px;
+    height: 100px;
+    margin-top: 1rem;
+}
