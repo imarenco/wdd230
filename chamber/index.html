@@ -48,8 +48,8 @@
     </header>
     <main>
         <div id="hero">
-            <img srcset="./images/hero-large.jpeg 800w, ./images/hero-medium.jpeg 480w, ./images/hero-small.jpeg 320w"
-                src="./images/hero-large.jpeg" sizes="100vw" alt="Elva dressed as a fairy" />
+            <img 
+                src="./images/bariloche.webp" sizes="100vw" alt="Elva dressed as a fairy" />
 
             <h3>Welcome to Bariloche</h3>
             <div><button>Join the Chamber</button></div>
@@ -79,13 +79,15 @@
                 <h3>Weather</h3>
                 <div>
                     <div id="weatherImg">
-                        <img srcset="./images/cloud-large.png 512w, ./images/cloud-medium.jpeg 400w, ./images/cloud-small.png 250w"
-                            src="./images/cloud2.png" sizes="100vw" alt="weather" />
-                        <p><label id="temperature">10</label>°F</p>
+                        <img id="weatherPicture" src="./images/cloud2.png" sizes="100vw" alt="weather" />
+                        <p><label id="temperature"></label>°F</p>
                     </div>
+                    <p><label id="weatherDescription">N/A</label></p>
                     <hr />
-                    <p>Wind Speed: <label id="speed">5</label> km/h</p>
+                    
+                    <p>Wind Speed: <label id="speed"></label> km/h</p>
                     <p>Wind Chill: <label id="chill">N/A</label></p>
+                    
                 </div>
 
             </div>
