@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #5464A3;
+    padding: 45px;
+    font-size: 37px;
+    margin-bottom: 50px;
+}
+
+h1, p, h2, figure {
+    text-align: center;
+}
+
+footer  {
+    color: white;
+    text-align: center;
+    background-color: #5464A3;
+    display: flex;
+    margin: 0px !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 30px !important;
+}
