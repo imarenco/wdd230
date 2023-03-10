@@ -28,5 +28,6 @@ function displayResults(weatherdata) {
     weathericon.setAttribute('src', iconsrc);
     weathericon.setAttribute('alt', description);
     weathericon.setAttribute('loading', 'lazy')
+    weathericon.style.display = 'flex';
     captiondesc.textContent = description.toUpperCase();
 }

@@ -17,6 +17,17 @@ h1, p, h2, figure {
     text-align: center;
 }
 
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img  {
+    display: none;
+}
+
 footer  {
     color: white;
     text-align: center;
