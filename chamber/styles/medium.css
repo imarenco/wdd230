@@ -81,12 +81,22 @@
 
    #joinpage {
       flex-direction: row;
-  }
+   }
 
-  #membershipSection {
-   width: 30%;
-  }
+   #membershipSection {
+      width: 30%;
+   }
 
 
+   #directory .cards-list section {
+      display: grid;
+      grid-template-columns: 1.25fr 1fr 1fr 1fr 1fr;
+
+   }
+
+   #directory .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   }
 
 }

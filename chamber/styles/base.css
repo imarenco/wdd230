@@ -638,35 +638,91 @@ legend {
     align-items: center;
 }
 
-#directory .places {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+#directory .cards-list {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin: 25px 25px;
+    border: solid #5464A3 1px;
+}
+
+
+
+
+#directory .cards-list section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    
+}
+
+
+#directory .cards-list section img {
+    display: none;
+}
+
+#directory .cards-list section:nth-child(odd) {
+    background-color: #5464A3;
+    color: white;
+}
+
+#directory .cards-list section h2 {
+    font-size: 1rem;
+    margin-left: 0;
+
+}
+
+#directory .cards-list section p,
+.cards-list section a {
+    font-size: 0.8rem;
+}
+
+
+#directory .cards-grid {
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
     padding: 1.5rem;
+    margin: 25px 25px;
     width: 80%;
     background-color: #5464A3;
 }
 
-#directory section {
+#directory .cards-grid section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0.5rem;
     padding: 1rem;
-    background-color:#eeeeee;
+    background-color: #eeeeee;
     border-radius: 8px;
 }
 
-#directory h2 {
+#directory .cards-grid h2 {
     font-size: 2.5rem;
     color: #5464A3;
     margin-bottom: 1rem;
 }
 
-#directory img {
+#directory .cards-grid img {
     width: auto;
-    border-radius: 8px; 
-	max-width: 325px;
+    border-radius: 8px;
+    max-width: 325px;
     height: 100px;
     margin-top: 1rem;
+}
+
+#directory .viewType {
+    background-color: #5464A3;
+    border-radius: 8px;
+    color: white;
+    display: inline-flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
 }

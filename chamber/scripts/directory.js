@@ -9,7 +9,7 @@ async function getPlaces(url) {
 getPlaces(url);
 
 const displayPlaces = (places) => {
-    const cards = document.querySelector('div.places');
+    const cards = document.querySelector('div.cards-grid');
 
     places.forEach((place) => {
         let card = document.createElement('section');
@@ -21,8 +21,8 @@ const displayPlaces = (places) => {
 
         title.textContent = place.name;
 
-        phone.textContent = `Phone: ${place.phone}`;
-        address.textContent = `Address:${place.address}`;
+        phone.textContent = `${place.phone}`;
+        address.textContent = `${place.address}`;
         website.textContent = `${place.website}`;
         website.setAttribute("href", place.website);
 
@@ -39,3 +39,17 @@ const displayPlaces = (places) => {
         cards.appendChild(card);
     })
 }
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards-grid");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("cards-grid");
+	display.classList.remove("cards-list");
+});
+
+listbutton.addEventListener("click", () => {
+	display.classList.add("cards-list");
+	display.classList.remove("cards-grid");
+});
