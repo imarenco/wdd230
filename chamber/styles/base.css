@@ -300,8 +300,14 @@ hr {
     flex-direction: row;
 }
 
+#weather h3 {
+    margin-bottom: 0px;
+}
+
 #weather #weatherImg p {
     font-size: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 #news {
@@ -655,7 +661,7 @@ legend {
     align-items: center;
     margin: 0;
     padding: 1rem;
-    
+
 }
 
 
