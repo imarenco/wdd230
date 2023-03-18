@@ -4,6 +4,8 @@
             "name": "Shopping Onelli",
             "address": "VICE ALTE. O´CONNOR 682",
             "phone": "2944 53-8988",
+            "status": "silver",
+            "email": "info@shoppingonelli.com",
             "website": "https://www.shoppingonelli.com",
             "img": "./images/onelli.jpeg"
         },
@@ -11,6 +13,8 @@
             "name": "Mia",
             "address": "Onelli 459 /Onelli 757",
             "phone": "294457684",
+            "status": "silver",
+            "email": "contacto@calzadosmia.com",
             "website": "https://www.calzadosmia.com",
             "img": "./images/mia.png"
         },
@@ -18,6 +22,8 @@
             "name": "Palm",
             "address": "Sucursal Brown 404",
             "phone": "(0294) 4422881",
+            "status": "silver",
+            "email": "recepcionventas@casapalm.com.ar",
             "website": "http://www.casapalm.com.ar/",
             "img": "./images/palm.png"
         },
@@ -25,6 +31,8 @@
             "name": "La Rueca",
             "address": "F. P. Moreno 879",
             "phone": "294 4423456",
+            "status": "silver",
+            "email": "info@laruecalanas.com",
             "website": "https://laruecalanas.com",
             "img": "./images/larueca.png"
         },
@@ -32,6 +40,8 @@
             "name": "Super Clin",
             "address": "Tiscornia 602",
             "phone": "294 443-2546",
+            "status": "silver",
+            "email": "ventas@superclin.com",
             "website": "https://super-clin.com.ar",
             "img": "./images/mrclin.png"
         },
@@ -39,6 +49,8 @@
             "name": "Gilio",
             "address": "12 de Octubre 2125",
             "phone": "(02944) 422371",
+            "status": "silver",
+            "email": "info@gilio.com.ar",
             "website": "http://www.gilio.com.ar",
             "img": "./images/gilio.png"
         },
@@ -46,13 +58,17 @@
             "name": "Centro del copiado",
             "address": "Gallardo 272",
             "phone": "(0294) 4428285",
+            "status": "gold",
+            "email": "info@centrodelcopiado.com",
             "website": "http://www.centrodelcopiado.com/",
             "img": "./images/centrocopiado.png"
         },
         {
             "name": "ISB Ingenieria",
             "address": "Alaniz J. 410",
+            "email": "administracion@isb-srl.com",
             "phone": "+54 (0) 294 4437830",
+            "status": "gold",
             "website": "http://www.isb-srl.com/",
             "img": "./images/isb.png"
         },
@@ -60,6 +76,8 @@
             "name": "Bochert",
             "address": "Av. Belgrano 165",
             "phone": "+549 294 4425017",
+            "status": "gold",
+            "email": "info@bochertseguros.com",
             "website": "http://www.bochertseguros.com/",
             "img": "./images/bochert.gif"
         }

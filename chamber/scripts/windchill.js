@@ -1,3 +1,5 @@
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=165795b6a6f8a7f648e7fc843939ca11"
+
 function isSpecificationLimit(temperature, speed) {
     return temperature <= 50 && speed > 3;
 }
@@ -18,7 +20,7 @@ const currenttemp = document.querySelector('#temperature');
 const weathericon = document.querySelector('#weatherPicture');
 const captiondesc = document.querySelector('#weatherDescription');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=165795b6a6f8a7f648e7fc843939ca11"
+
 
 async function apiFetch() {
     try {
