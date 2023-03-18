@@ -83,6 +83,10 @@
       flex-direction: row;
    }
 
+   #contactPage {
+      flex-direction: row;  
+   }
+
    #membershipSection {
       width: 30%;
    }

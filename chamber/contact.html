@@ -43,74 +43,22 @@
             </ul>
         </nav>
     </header>
-    <main id="joinpage">
-        <table id="membershipSection">
-            <thead>
-                <tr>
-                    <th>Membership Level</th>
-                    <th>Benefits</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>NP</td>
-                    <td>No fee, limited benefits</td>
-                    <td>$0</td>
-                </tr>
-                <tr>
-                    <td>Bronze</td>
-                    <td>Access to trainings</td>
-                    <td>$50</td>
-                </tr>
-                <tr>
-                    <td>Silver</td>
-                    <td>Access to trainings, advertising opportunities, event discounts</td>
-                    <td>$100</td>
-                </tr>
-                <tr>
-                    <td>Gold</td>
-                    <td>Access to trainings, advertising opportunities, event discounts, priority listing on the
-                        website</td>
-                    <td>$150</td>
-                </tr>
-            </tbody>
-        </table>
+    <main id="contactPage">
+        <div id="membershipSection">
+        </div>
         <form method="get" action="./thankyou.html">
             <fieldset id="contact">
-                <legend>Information</legend>
+                <legend>Contact Information</legend>
                 <label class="group">First name *<input type="text" name="firstName" required></label>
                 <label class="group">Last name *<input type="text" name="lastName" required></label>
-                <label class="group">Business Position<input type="text" name="bposition" pattern="[a-zA-Z\s-]{7,}"
-                        title="Please enter a valid job position title (minimum 7 alpha characters, hyphens, and spaces only)"></label>
                 <label class="group">Email *<input type="email" name="email" placeholder="test@gmail.com"
                         required></label>
 
                 <label class="group">Phone Number *<input type="tel" name="phone" required></label>
-                <label class="group">Business Name *<input type="text" name="bname" required></label>
+                <label class="group">Comments<textarea name="description"></textarea></label>
             </fieldset>
 
-            <fieldset id="membership">
-                <legend>Membership Selection</legend>
-                <div id="membershipSelection">Please choose your membership
-                    <label class="group"><input type="radio" name="membership" value="NP Membership"> NP
-                        Membership</label>
-                    <label class="group"><input type="radio" name="membership" value="Bronze Membership"> Bronze
-                        Membership</label>
-                    <label class="group"><input type="radio" name="membership" value="Silver Membership"> Silver
-                        Membership</label>
-                    <label class="group"><input type="radio" name="membership" value="Gold Membership"> Gold
-                        Membership</label>
-                </div>
-            </fieldset>
-            <fieldset id="describe">
-                <legend>Describe Your Business</legend>
-                <label class="group">Please briefly describe your business<textarea
-                        name="description"></textarea></label>
-                <input type="hidden" id="dateTime" name="dateTime" value="">
-            </fieldset>
-
-            <input id="btn" type="submit" value="Join to Bariloche Chamber of Commerce">
+            <input id="btn" type="submit" value="Contact US">
         </form>
     </main>
     <footer>
