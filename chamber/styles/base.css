@@ -748,5 +748,13 @@ legend {
 }
 
 #contactPage #membershipSection {
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#contactPage #membershipSection img {
+    width: 100%;
+    border-radius: 10px;
+    
 }
