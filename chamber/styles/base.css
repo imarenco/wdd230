@@ -180,7 +180,7 @@ main {
     justify-content: center;
 }
 
-#hero button {
+#hero a {
     border: none;
     padding: 1rem;
     color: white;
@@ -190,7 +190,7 @@ main {
     width: auto;
 }
 
-#hero button:hover {
+#hero a:hover {
     background-color: #688BF5;
 }
 
@@ -207,7 +207,7 @@ main {
     color: white;
 }
 
-#join button {
+#join a {
     border: none;
     padding: 1rem 5rem;
     color: white;
@@ -217,7 +217,7 @@ main {
     width: auto;
 }
 
-#join button:hover {
+#join a:hover {
     background-color: white;
     color: #5464A3;
 }
