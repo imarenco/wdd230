@@ -735,11 +735,18 @@ legend {
 
 
 /* contact page  */
-
 #contactPage {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     width: 100%;
     flex-direction: column;
+}
+
+#contactPage textarea {
+    width: 100%;
+}
+
+#contactPage #membershipSection {
+    
 }
