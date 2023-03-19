@@ -208,7 +208,7 @@ main {
     color: white;
 }
 
-#join a {
+#joinLink {
     border: none;
     padding: 1rem 5rem;
     color: white;
@@ -219,7 +219,7 @@ main {
     width: auto;
 }
 
-#join a:hover {
+#joinLink:hover {
     background-color: white;
     color: #5464A3;
 }
