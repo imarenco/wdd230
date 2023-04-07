@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/earlyfruits.png" alt="Early Fruits" />
+            </a>
+            <div class="header-right">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="fresh.html">Fresh</a>
+                    <a href="about.html">About</a>
+                </nav>
+                <div class="social">
+                    <img class="social-img" src="./images/facebook.png" />
+                    <img class="social-img" src="./images/instagram.png" />
+                    <img class="social-img" src="./images/twitter.png" />
+                </div>
+            </div>
+        </header>
+        <main id="fresh">
+            <form method="get" action="./thankyou.html">
+                <fieldset id="contact">
+                    <legend>Information</legend>
+                    <label class="group">First name *<input type="text" name="firstName" required></label>
+                    <label class="group">Email *<input type="email" name="email" placeholder="test@gmail.com"
+                            required></label>
+                    <label class="group">Phone Number<input type="text" name="phone"></label>
+                </fieldset>
+                <form method="get" action="./thankyou.html">
+                    <fieldset id="contact">
+                        <legend>Select Fruit</legend>
+                        <label class="group">Fruit 1 *<select class="select-fruit" name="fruit1" id="fruit1" required>
+
+                            </select></label>
+                        <label class="group">Fruit 2 *<select class="select-fruit" name="fruit2" id="fruit2" required>
+                            </select></label>
+                        <label class="group">Fruit 3 *<select class="select-fruit" name="fruit3" id="fruit3" required>
+
+                            </select></label>
+                    </fieldset>
+                    <fieldset id="describe">
+                        <legend>Especial instructions</legend>
+                        <label class="group">Please briefly describe here<textarea
+                                name="description"></textarea></label>
+                        <input type="hidden" id="dateTime" name="dateTime" value="">
+                    </fieldset>
+                    <input id="btn" type="submit" value="Make a order">
+                </form>
+
+                <div id="thank-you">
+                    <p id="first-name-label"></p>
+                    <p id="email-label"></p>
+                    <p id="phone"></p>
+                    <p id="fruits"></p>
+                    <p id="description"></p>
+                    <p id="total"></p>
+                </div>
+
+        </main>
+        <footer>
+            <div id="information">
+                <div id="companyInformation">
+
+                    <div>
+                        <h4>Early Fruits</h4>
+                        <p>Address: 29131-29199 Grayfox St, Malibu, California</p>
+                        <p id="visits"></p>
+                    </div>
+                </div>
+                <p id="lastDate"></p>
+                <div>
+                    <p>info@earlyfruits.com</p>
+                    <p>408-769-4396</p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/fruitSelectors.js"></script>
+    <script src="scripts/date.js"></script>
+</body>
+
+</html>

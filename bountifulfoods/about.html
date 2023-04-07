@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="content-about">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/earlyfruits.png" alt="Early Fruits" />
+            </a>
+            <div class="header-right">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="fresh.html">Fresh</a>
+                    <a href="about.html">About</a>
+                </nav>
+                <div class="social">
+                    <img class="social-img" src="./images/facebook.png" />
+                    <img class="social-img" src="./images/instagram.png" />
+                    <img class="social-img" src="./images/twitter.png" />
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="experiences">
+                <div class="experiences-text">
+                    <h2>Great experiences define great brands</h2>
+                    <p>At Early Fruits, we believe that healthy eating should be a pleasure, not a chore. That's why
+                        we've created a range of delicious and nutritious foods that are sure to satisfy even the most
+                        discerning palate. So why wait? Visit us today and discover the joy of healthy eating!</p>
+                </div>
+                <img class="experiences-img" src="images/aboutus.webp" alt="">
+
+            </section>
+            <section class="experiences">
+                <img class="experiences-img" src="images/aboutus2.jpeg" alt="">
+                <div class="experiences-text second-text">
+                    <h2>Who we are</h2>
+                    <p>Early Fruits was founded in 2014 by entrepreneurs who saw an opportunity to provide a better
+                        healthy
+                        experience for customers. We are a team of entrepreneurs
+                        who
+                        are passionate about healthy food delivering amazing customer experiences.</p>
+                </div>
+            </section>
+            <div id="contact-wrapper">
+                <section id="contact-us">
+                    <div id="contact-information">
+                        <p>Address: 29131-29199 Grayfox St, Malibu, California</p>
+                        <p>Phone: 408-769-4396</p>
+                        <p>Email: info@earlyfruits.com</p>
+                    </div>
+                    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+
+                </section>
+            </div>
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(51.508742, -0.120850),
+                        zoom: 5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+            </script>
+
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJxzPHD_egYnhxntqcvfem35YRjruzAg&callback=myMap"></script>
+        </main>
+        <footer>
+            <div id="information">
+                <div id="companyInformation">
+
+                    <div>
+                        <h4>Early Fruits</h4>
+                        <p>Address: 29131-29199 Grayfox St, Malibu, California</p>
+                        <p id="visits"></p>
+                    </div>
+                </div>
+                <p id="lastDate"></p>
+                <div>
+                    <p>info@earlyfruits.com</p>
+                    <p>408-769-4396</p>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/date.js"></script>
+</body>
+
+</html>
