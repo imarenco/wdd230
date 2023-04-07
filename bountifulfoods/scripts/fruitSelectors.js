@@ -91,7 +91,7 @@ document.addEventListener("submit", function(event) {
         calories = calories + selectedFruit.nutritions.calories;
     }); 
 
-    total.textContent = `Carbohydrates: ${carbohydrates.toFixed(2)}, Protein${protein.toFixed(2)}, Fat: ${fat.toFixed(2)}, Sugar: ${sugar.toFixed(2)}, Calories: ${calories.toFixed(2)}`;
+    total.textContent = `Carbohydrates: ${carbohydrates.toFixed(2)}, Protein: ${protein.toFixed(2)}, Fat: ${fat.toFixed(2)}, Sugar: ${sugar.toFixed(2)}, Calories: ${calories.toFixed(2)}`;
     
     document.getElementById("thank-you").style.display = 'block';
 });
