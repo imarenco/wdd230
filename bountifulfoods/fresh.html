@@ -37,35 +37,32 @@
                             required></label>
                     <label class="group">Phone Number<input type="text" name="phone"></label>
                 </fieldset>
-                <form method="get" action="./thankyou.html">
-                    <fieldset class="contact">
-                        <legend>Select Fruit</legend>
-                        <label class="group">Fruit 1 *<select class="select-fruit" name="fruit1" id="fruit1" required>
+                <fieldset class="contact">
+                    <legend>Select Fruit</legend>
+                    <label class="group">Fruit 1 *<select class="select-fruit" name="fruit1" id="fruit1" required>
+                        </select></label>
+                    <label class="group">Fruit 2 *<select class="select-fruit" name="fruit2" id="fruit2" required>
+                        </select></label>
+                    <label class="group">Fruit 3 *<select class="select-fruit" name="fruit3" id="fruit3" required>
 
-                            </select></label>
-                        <label class="group">Fruit 2 *<select class="select-fruit" name="fruit2" id="fruit2" required>
-                            </select></label>
-                        <label class="group">Fruit 3 *<select class="select-fruit" name="fruit3" id="fruit3" required>
+                        </select></label>
+                </fieldset>
+                <fieldset id="describe">
+                    <legend>Especial instructions</legend>
+                    <label class="group">Please briefly describe here<textarea name="description"></textarea></label>
+                    <input type="hidden" id="dateTime" name="dateTime" value="">
+                </fieldset>
+                <input id="btn" type="submit" value="Make a order">
+            </form>
 
-                            </select></label>
-                    </fieldset>
-                    <fieldset id="describe">
-                        <legend>Especial instructions</legend>
-                        <label class="group">Please briefly describe here<textarea
-                                name="description"></textarea></label>
-                        <input type="hidden" id="dateTime" name="dateTime" value="">
-                    </fieldset>
-                    <input id="btn" type="submit" value="Make a order">
-                </form>
-
-                <div id="thank-you">
-                    <p id="first-name-label"></p>
-                    <p id="email-label"></p>
-                    <p id="phone"></p>
-                    <p id="fruits"></p>
-                    <p id="description"></p>
-                    <p id="total"></p>
-                </div>
+            <div id="thank-you">
+                <p id="first-name-label"></p>
+                <p id="email-label"></p>
+                <p id="phone"></p>
+                <p id="fruits"></p>
+                <p id="description"></p>
+                <p id="total"></p>
+            </div>
 
         </main>
         <footer>
